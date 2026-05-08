@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/time-traveler-john-titor",
     "maintainers": [
       {
@@ -16,111 +16,297 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "time-traveler-john-titor",
-    "name": "",
-    "aliases": [],
-    "category": "URBAN_LEGEND",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "John Titor",
+    "aliases": [
+      { "name": "TimeTravel_0", "language": "English", "meaning": "Username used on the Time Travel Institute forum, late 2000" },
+      { "name": "John Titor", "language": "English", "meaning": "Username used on the Art Bell BBS forum, 2001" }
     ],
-    "status": "documented",
+    "category": "URBAN_LEGEND",
+    "subcategory": "Internet hoax / online time-traveler claim",
+    "tags": [
+      "internet-folklore",
+      "time-travel",
+      "hoax",
+      "early-internet",
+      "art-bell",
+      "y2038",
+      "ibm-5100"
+    ],
+    "status": "debunked",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "An anonymous online persona who, between 1998 and 2001, claimed to be an American soldier from the year 2036 sent back to 1975 to retrieve an IBM 5100 computer. Widely regarded as one of the most elaborate early-internet hoaxes.",
+      "full": "John Titor is the screen name attached to a series of online posts claiming time-traveler status that appeared on the Art Bell Post-2-Post BBS, Time Travel Institute forums, and IRC channels between 1998 and late March 2001. The earliest known communications were two faxes sent to broadcaster Art Bell on 29 July 1998. The poster claimed to be a US Army soldier born in 1998 and based in Tampa, Florida in 2036, sent back to 1975 to retrieve an IBM 5100 computer needed to debug legacy systems threatened by the year-2038 Unix problem ('Y2038'); he claimed to be 'on a stopover' in 2000-2001 to visit his family. He posted detailed schematics, photographs of an alleged 'time displacement device' built into a 1967 Chevrolet Corvette and 1987 truck, and a series of predictions including civil unrest around the 2004 US presidential election, a US civil war by 2008, and a global nuclear war ('N-Day') in 2015 with the new US capital relocated to Omaha, Nebraska. None of the predictions came to pass on schedule. A 2009 investigation by John Hughston ('Razimus') and Italian researchers identified Larry Haber, a Florida entertainment lawyer who became CEO of the John Titor Foundation (incorporated 2003-09-16), as the most likely originator, alongside his brothers Morey Haber and John Rick Haber - all of whom have denied involvement. The Titor archive remains one of the most enduring artifacts of late-1990s/early-2000s internet folklore."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The pseudonym 'John Titor' was used on the Art Bell BBS forum from January 2001; earlier posts on the Time Travel Institute used 'TimeTravel_0'. The name 'Titor' has no announced derivation in the original posts.",
+      "meaning": "Pseudonym; no documented meaning",
+      "first_use": "1998-07-29 (two faxes to Art Bell, signed as a time traveler) / 2000-11-02 (first Time Travel Institute post as 'TimeTravel_0')"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "URBAN_LEGEND",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Internet hoax",
+      "subtype": "Time-traveler claim",
+      "variant": "Late-1990s/early-2000s American forum culture"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "time-slips", "name": "Time Slips", "relationship": "related", "description": "Other reported time-anomaly phenomena" },
+      { "id": "philadelphia-experiment", "name": "Philadelphia Experiment", "relationship": "related", "description": "Earlier American time/teleportation legend" },
+      { "id": "montauk-project", "name": "Montauk Project", "relationship": "related", "description": "Conspiracy claim invoking time-travel experiments" },
+      { "id": "mandela-effect", "name": "Mandela Effect", "relationship": "related", "description": "Internet-era memory anomaly often grouped with parallel-universe claims" }
+    ]
   },
+
   "characteristics": {
     "physical": {
       "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "morphology": "Phenomenon is textual/online; no physical form."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Claimed time travel via 'time displacement unit'", "description": "Titor described a device installed in a 1967 Chevrolet Corvette (and later a 1987 truck) using two micro-singularities and a magnetic-field manipulation system", "frequency": "always", "evidence_level": "speculation" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["online forums", "early-2000s American BBS culture"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Long-form Q&A on internet forums (2000-2001)",
+        "Detailed pseudo-technical posts about time-machine engineering",
+        "Specific dated predictions about US politics, war, and the Y2038 problem"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Posts originated through online forums based primarily in the United States.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Florida", "American internet culture"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Time Travel Institute forum",
+        "location": {
+          "description": "Time Travel Institute online forum (TTI), founded 1998",
+          "country": "United States",
+          "region": "Online"
+        },
+        "peak_period": "2000-11 to 2001-03",
+        "notes": "Site of TimeTravel_0 posts beginning 2 November 2000"
+      },
+      {
+        "name": "Art Bell Post-2-Post BBS",
+        "location": {
+          "description": "Art Bell's Post-2-Post (P2P) bulletin board",
+          "country": "United States",
+          "region": "Online"
+        },
+        "peak_period": "2001-01 to 2001-03",
+        "notes": "Posts as 'John Titor'"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1998-07-29",
+        "circa": false,
+        "source": "Two faxes to Art Bell signed as a time traveler"
+      },
+      "peak_activity_periods": [
+        { "period": "2000-11 to 2001-03", "description": "Main posting period across TTI, Art Bell BBS, and IRC" }
+      ],
+      "seasonal_patterns": "Activity ceased abruptly in late March 2001."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Late-1990s American conspiracy/paranormal radio (Coast to Coast AM with Art Bell), early-internet bulletin-board culture, and Y2K/Y2038 anxiety.",
+      "earliest_accounts": "Two faxes to Art Bell on 29 July 1998 from someone identifying as a time traveler.",
+      "folklore_connections": "Connected to broader American time-travel legends (Philadelphia Experiment, Montauk Project) and to internet creepypasta traditions that succeeded it."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1998-07-29", "event": "Two faxes received by Art Bell from someone claiming to be a time traveler", "significance": "Earliest known Titor-related communications", "source": "Art Bell archives" },
+      { "date": "2000-10-14", "event": "First IRC conversation by user later associated with Titor", "significance": "Beginning of the online presence proper", "source": "IRC logs cited in Titor archives" },
+      { "date": "2000-11-02", "event": "First post as 'TimeTravel_0' on the Time Travel Institute forum", "significance": "Beginning of the main online run", "source": "Time Travel Institute forum archives" },
+      { "date": "2001-01", "event": "Posts as 'John Titor' begin on Art Bell Post-2-Post BBS", "significance": "Adoption of the now-famous pseudonym", "source": "Art Bell BBS archives" },
+      { "date": "2001-03-24", "event": "Final Titor post; the persona departs", "significance": "End of the active phase", "source": "John Titor Foundation compilation" },
+      { "date": "2003-09-16", "event": "John Titor Foundation Inc. is incorporated in Florida; Larry Haber is CEO", "significance": "Commercial entity established to manage the Titor archive and merchandising", "source": "Florida Department of State, Division of Corporations" },
+      { "date": "2009", "event": "Investigation by John Hughston ('Razimus') and Italian researchers identifies Larry Haber and his brothers (Morey Haber, John Rick Haber) as the likely originators", "significance": "Most credible attribution to date; the Habers deny involvement", "source": "Razimus investigation, Italian RAI documentary coverage" },
+      { "date": "2015", "event": "Predicted year of 'N-Day' nuclear war did not occur", "significance": "Falsification of central Titor prediction", "source": "Public record" }
+    ],
+    "modern_era": "The Titor archive endures as a foundational text of internet folklore, regularly cited in retrospectives and analyzed in academic studies of online hoaxes (e.g. Brian Dunning's Skeptoid, Jenny Kleeman, The New Republic). The case is widely treated by mainstream commentators as a hoax."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 1,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 1,
+      "date_range": { "earliest": "1998-07-29", "latest": "2001-03-24" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "titor-event-1998-fax",
+        "name": "Art Bell time-traveler faxes",
+        "date": { "value": "1998-07-29", "precision": "exact" },
+        "location": {
+          "description": "Art Bell's broadcast/fax line, Pahrump, Nevada",
+          "country": "United States",
+          "region": "Nevada"
+        },
+        "witnesses": { "count": 1, "types": ["Broadcaster (Art Bell)"], "credibility_factors": ["Bell preserved and discussed the faxes on air"] },
+        "description": "Art Bell received two faxes from a person claiming to be a time traveler. These are the earliest known communications later linked to the John Titor persona.",
+        "conditions": { "weather": "N/A", "visibility": "N/A", "time_of_day": "N/A", "duration": "Two faxes" },
+        "evidence": ["Faxes preserved by Art Bell"],
+        "credibility": { "rating": "low", "factors": ["No verification of sender"], "notes": "First known Titor-related communication." },
+        "sources": ["Art Bell archives", "John Titor Foundation compilation"],
+        "featured": true
+      },
+      {
+        "id": "titor-event-2000-tti",
+        "name": "First TimeTravel_0 post",
+        "date": { "value": "2000-11-02", "precision": "exact" },
+        "location": {
+          "description": "Time Travel Institute online forum",
+          "country": "United States"
+        },
+        "witnesses": { "count": 0, "types": ["Forum users"] },
+        "description": "First public forum post under the username 'TimeTravel_0', launching what would become the John Titor narrative.",
+        "conditions": { "weather": "N/A", "visibility": "N/A", "time_of_day": "N/A", "duration": "N/A" },
+        "evidence": ["Time Travel Institute forum archives"],
+        "credibility": { "rating": "unverified", "factors": ["Anonymous post"], "notes": "Beginning of the main online phase." },
+        "sources": ["Time Travel Institute forum archives"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
-    "photographic": [],
+    "photographic": [
+      {
+        "id": "titor-evidence-corvette-photos",
+        "type": "image",
+        "name": "Alleged 1967 Chevrolet Corvette 'time machine' photographs",
+        "date": "2001",
+        "description": "Photographs and schematics posted by Titor of an alleged 'time displacement unit' installed in a 1967 Chevrolet Corvette and a 1987 truck.",
+        "status": "debunked",
+        "analysis": "Mainstream commentators treat the schematics as pseudo-technical fiction; the photographs have not been authenticated.",
+        "source": "Titor forum posts"
+      }
+    ],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "titor-evidence-archive",
+        "type": "online archive",
+        "name": "John Titor forum archive",
+        "description": "Compiled archive of Titor's posts on the Time Travel Institute and Art Bell BBS, mirrored in many third-party locations.",
+        "status": "debunked",
+        "analysis": "All major predictions falsified; credible attribution to the Haber brothers stands unrefuted.",
+        "url": "http://www.johntitor.com/",
+        "source": "John Titor Foundation"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Genuine time traveler from 2036",
+        "description": "Titor's own claim: an American soldier sent back from 2036 via a micro-singularity-based time-displacement unit to retrieve an IBM 5100 computer for the Y2038 problem.",
+        "proponents": ["Titor (anonymous poster)"],
+        "evidence_cited": ["Detailed (and unfalsifiable) technical descriptions", "Specific predictions about 2004-2015"]
+      },
+      {
+        "name": "Alternate-history Titor",
+        "description": "A defense sometimes raised after predictions failed: Titor came from a divergent timeline and his future is not ours.",
+        "proponents": ["Various Titor enthusiasts"],
+        "evidence_cited": ["Titor's own statements about a roughly 2.5% divergence between worldlines"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Larry Haber / Haber brothers hoax",
+        "description": "The most credible attribution: Florida entertainment lawyer Larry Haber, who became CEO of the John Titor Foundation Inc. (incorporated 16 September 2003), and/or his computer-professional brothers Morey Haber and John Rick Haber, originated the Titor posts. All deny involvement.",
+        "proponents": ["John Hughston (Razimus)", "Brian Dunning (Skeptoid)", "Italian RAI documentary investigation"],
+        "evidence_cited": ["Florida incorporation records", "IP and stylistic analyses", "Commercial development of Titor IP through the foundation"]
+      },
+      {
+        "name": "Falsified predictions",
+        "description": "Titor's central predictions - civil unrest in 2004, US civil war by 2008, global nuclear war ('N-Day') in 2015 - did not occur.",
+        "proponents": ["Public record"],
+        "evidence_cited": ["No 2015 nuclear war", "No US civil war by 2008", "Continuing existence of Washington, D.C. as US capital"]
+      },
+      {
+        "name": "Internet-folklore hoax tradition",
+        "description": "Titor fits a recognizable pattern of late-1990s/early-2000s internet hoaxes (alongside earlier and later examples), exploiting the credibility of forum culture and Art Bell's audience.",
+        "proponents": ["Joe Nickell", "Various internet-folklore researchers"],
+        "evidence_cited": ["Stylistic similarity to other forum hoaxes", "Commercialization of the persona post-2003"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Early-internet forum / BBS culture",
+        "Coast to Coast AM paranormal radio tradition",
+        "American time-travel hoax tradition (Philadelphia Experiment, Montauk Project)"
+      ],
+      "stories": [
+        "The Y2038 mission: retrieving an IBM 5100 from 1975",
+        "Predictions of US civil unrest, civil war, and 2015 nuclear war",
+        "Departure from 2001 'home stopover'"
+      ],
+      "beliefs": "Treated by mainstream commentators and journalists as a hoax; small online communities continue to defend the alternate-timeline reading."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "John Titor: A Time Traveler's Tale (John Titor Foundation, 2003)"
+      ],
+      "film_tv": [
+        "Coast to Coast AM (Art Bell) - background for the original posts",
+        "Steins;Gate (Japanese visual novel and anime, 2009 onward) - explicitly cites the Titor mythos"
+      ],
+      "games": [
+        "Steins;Gate"
+      ],
+      "music": [],
+      "other": [
+        "Numerous YouTube and podcast retrospectives (Skeptoid, Lemmino, etc.)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Art Bell", "affiliation": "Coast to Coast AM (broadcaster)", "contribution": "Received the original 1998 faxes; provided the cultural context for the Titor narrative", "period": "1998-2003" },
+      { "name": "John Hughston ('Razimus')", "affiliation": "Independent investigator", "contribution": "2009 investigation identifying the Haber brothers as likely originators", "period": "2000s-2010s" },
+      { "name": "Brian Dunning", "affiliation": "Skeptoid", "contribution": "Sceptical analysis of the Titor case as an internet hoax", "period": "2010s" }
+    ],
+    "organizations": [
+      { "name": "John Titor Foundation Inc.", "url": "http://www.johntitor.com/", "focus": "Commercial entity managing Titor archive and merchandising; CEO Larry Haber" }
+    ],
+    "ongoing_studies": "Continuing journalistic and academic interest in Titor as a foundational case in internet-folklore studies."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-johntitor", "type": "website", "title": "John Titor", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Titor", "accessed": "2026-05-07" },
+    { "id": "johntitorfoundation", "type": "website", "title": "John Titor Foundation", "url": "http://www.johntitor.com/", "accessed": "2026-05-07" },
+    { "id": "skeptoid-titor", "type": "article", "title": "Was John Titor a Real Time Traveler?", "authors": ["Brian Dunning"], "publication": "Skeptoid", "url": "https://skeptoid.com/episodes/4244", "accessed": "2026-05-07" }
+  ]
 }
